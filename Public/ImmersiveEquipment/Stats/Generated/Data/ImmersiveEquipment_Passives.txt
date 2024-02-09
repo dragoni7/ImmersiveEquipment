@@ -1,0 +1,32 @@
+
+new entry "IE_ForceBound_Passive_Technical_Passive"
+type "PassiveData"
+using "IE_ForceBound_Passive"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE')"
+data "StatsFunctors" "ApplyStatus(IE_CHARGED_FORCE_FORCE_GREATER_WEAPON, 100, -1)"
+
+new entry "IE_ForceBound_Passive"
+type "PassiveData"
+using "MAG_ShockingBound_Passive"
+data "DisplayName" "h988c102fg513fg4f92g8e6egf15a20e9fd23"
+data "DescriptionParams" "DealDamage(1d6, Force)"
+
+new entry "IE_BoundToBeBonded_2_Technical_Passive"
+type "PassiveData"
+using "IE_BoundToBeBonded_Passive_2"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE')"
+data "StatsFunctors" "ApplyStatus(IE_WEAPON_ATTACK_ROLL_BONUS_2, 100, -1)"
+
+new entry "IE_BoundToBeBonded_Passive_2"
+type "PassiveData"
+using "MAG_BoundToBeBonded_Passive"
+data "DescriptionParams" "2"
+
+new entry "IE_ImmolateEcho"
+type "PassiveData"
+using "GreatWeaponMaster_BonusAttack"
+data "DisplayName" "h4432b5b3g08c7g47f5ga052ged6a92c32a36"
+data "Description" "h8d7d95f7ga8e7g4d4ag8377geb6b50ae22ce"
+data "StatsFunctors" "ApplyStatus(SELF,IE_IMMOLATE_ECHO,100,1)"

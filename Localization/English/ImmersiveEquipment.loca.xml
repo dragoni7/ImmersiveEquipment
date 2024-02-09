@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <!-- Echo's Song -->
+    <content contentuid="hff5150ab22324c36bcae1a8d730161d2546d" version="1">Overcome or be consumed, then another bearer will take their place. And another.</content>
+    <content contentuid="h72562a7cg3f48g4416g9dc4g0d0f64573b59" version="1">Echo's Song</content>
+    <content contentuid="hdc99e3dea1cf4b4e9c62d9680140477bg33g" version="1">This sword's magical powers only function if it's &lt; Type="Status" Tooltip="WEAPON_BOND"&gt;Bound&lt;/LSTag&gt; to an Eldritch Knight or is a Warlock's &lt; Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;.</content>
+    <content contentuid="h988c102fg513fg4f92g8e6egf15a20e9fd23" version="2">Force Channeling</content>
+    <content contentuid="h629659b4g03c6g4c9ega995ge4a8cb0daf37" version="2">Red energy shines across the weapon's surface. Deals an additional [1].</content>
+    <content contentuid="h1377ba42g14a2g4f79gb8f9gfb616e11784b" version="1">%%% Channeled Force Damage</content>
+    <content contentuid="h4432b5b3g08c7g47f5ga052ged6a92c32a36" version="2">Immolate Echo</content>
+    <content contentuid="h8d7d95f7ga8e7g4d4ag8377geb6b50ae22ce" version="2">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; or kill a target with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;melee weapon attack&lt;/LSTag&gt;, you can cast &lt;LSTag Type="Spell" Tooltip="IE_Target_ImmolateEcho"&gt;Immolate Echo&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; that turn.</content>
+    <content contentuid="h1651da91g4864g4e22gad0egd55c1cdac827" version="2">As a bonus action, cast &lt;LSTag Type="Spell" Tooltip="IE_Target_ImmolateEcho"&gt;Immolate Echo&lt;/LSTag&gt;, dealing [1] damage.</content>
+    <content contentuid="h8be95f1fgde3cg4065g883bgbbc8316c78e7" version="2">Can cast &lt;LSTag Type="Spell" Tooltip="IE_Target_ImmolateEcho"&gt;Immolate Echo&lt;/LSTag&gt; as a bonus action.</content>
+
+
+</contentList>

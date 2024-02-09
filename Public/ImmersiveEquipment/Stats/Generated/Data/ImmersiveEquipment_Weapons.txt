@@ -1,0 +1,11 @@
+new entry "IE_Echos_Song"
+type "Weapon"
+using "WPN_Longsword_1"
+data "RootTemplate" "f3c8dc95-e29e-44bf-8df1-d6b5316e3e81"
+data "ItemGroup" ""
+data "ValueOverride" "1850"
+data "Rarity" "VeryRare"
+data "PassivesOnEquip" "IE_BoundToBeBonded_Passive_2;IE_ForceBound_Passive;IE_ImmolateEcho"
+data "DefaultBoosts" "WeaponProperty(Magical);"
+data "Unique" "1"
+

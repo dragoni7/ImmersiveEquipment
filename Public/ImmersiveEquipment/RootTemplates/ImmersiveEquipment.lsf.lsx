@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="Templates">
+        <node id="Templates">
+            <children>
+
+                <node id="GameObjects">
+                    <!-- Echo's Song -->
+					<attribute id="Description" type="TranslatedString" handle="hff5150ab22324c36bcae1a8d730161d2546d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h72562a7cg3f48g4416g9dc4g0d0f64573b59" version="1" />
+					<attribute id="ExamineRotation" type="fvec3" value="75 180 0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_Adamantine_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f3c8dc95-e29e-44bf-8df1-d6b5316e3e81" />
+					<attribute id="Name" type="LSString" value="IE_Echos_Song" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="IE_Echos_Song" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hdc99e3dea1cf4b4e9c62d9680140477bg33g" version="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="56d90029-423f-e537-a8e2-bcc797d7cdc7" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="IE_ATTACK_ROLL_BONUS_2_BONDED_TECHNICAL" />
+								</node>
+                                <node id="Status">
+									<attribute id="Object" type="FixedString" value="IE_BONDED_FORCE_DAMAGE_TECHNICAL" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>  
+
+            </children>
+        </node>
+    </region>
+</save>
+                    
