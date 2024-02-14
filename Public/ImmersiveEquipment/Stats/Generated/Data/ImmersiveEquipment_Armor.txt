@@ -1,0 +1,8 @@
+new entry "ARM_IE_Chromatic_Hat"
+type "Armor"
+using "MAG_Monk_Magic_Hat"
+data "RootTemplate" "72375c7b-9c5e-451a-bb8e-3739a0bb1b46"
+data "ValueUUID" "adfdafe5-f4da-4c64-a1e6-a33d626437d2"
+data "Rarity" "VeryRare"
+data "PassivesOnEquip" "MAG_BG_DragonsBreath_Glaive_Passive;IE_Dragon_Queen_Aura"
+data "Boosts" "UnlockSpell(IE_Shout_Dragon_Queen_Aura)"

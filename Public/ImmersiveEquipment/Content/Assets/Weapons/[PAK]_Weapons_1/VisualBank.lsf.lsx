@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" />
+    <region id="VisualBank">
+		<node id="VisualBank">
+            <node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304952" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.02595609 -1.158125" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="a37206ef-83bf-48d2-bc9d-f4193bf9588f" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_Adamantine_A_Revamped" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/WPN_HUM_Longsword_A_1.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/WPN_HUM_Longsword_A_1.Dummy_WPN_HUM_Longsword_A_1.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209008" />
+					<children>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="44ce6b27-693b-4863-ac76-b2af6c8cb8a4" />
+							<attribute id="ObjectID" type="FixedString" value="WPN_HUM_Longsword_A_1.WPN_HUM_Longsword_A_1_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="44ce6b27-693b-4863-ac76-b2af6c8cb8a4" />
+							<attribute id="ObjectID" type="FixedString" value="WPN_HUM_Longsword_A_1.WPN_HUM_Longsword_A_1_Mesh_LOD1.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="2" />
+							<attribute id="MaterialID" type="FixedString" value="44ce6b27-693b-4863-ac76-b2af6c8cb8a4" />
+							<attribute id="ObjectID" type="FixedString" value="WPN_HUM_Longsword_A_1.WPN_HUM_Longsword_A_1_Mesh_LOD2.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="3" />
+							<attribute id="MaterialID" type="FixedString" value="44ce6b27-693b-4863-ac76-b2af6c8cb8a4" />
+							<attribute id="ObjectID" type="FixedString" value="WPN_HUM_Longsword_A_1.WPN_HUM_Longsword_A_1_Mesh_LOD3.3" />
+						</node>
+					</children>
+			</node>
+        </node>
+    </region>
+</save>

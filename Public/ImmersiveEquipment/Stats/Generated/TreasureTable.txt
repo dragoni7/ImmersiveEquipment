@@ -1,0 +1,3 @@
+new treasuretable "IE_Dragon_Champion"
+new subtable "1,1"
+object category "I_ARM_IE_Chromatic_Hat",1,0,0,0,0,0,0,0

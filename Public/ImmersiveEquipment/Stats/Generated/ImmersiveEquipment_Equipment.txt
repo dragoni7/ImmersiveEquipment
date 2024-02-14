@@ -1,0 +1,6 @@
+new equipment "EQP_IE_DragonChampion"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_IE_Five_Head_Flail"
+add equipmentgroup
+add equipment entry "ARM_Shield_1"
