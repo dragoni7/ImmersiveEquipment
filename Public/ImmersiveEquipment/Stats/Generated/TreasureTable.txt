@@ -1,3 +1,11 @@
 new treasuretable "IE_Dragon_Champion"
 new subtable "1,1"
 object category "I_ARM_IE_Chromatic_Hat",1,0,0,0,0,0,0,0
+
+new treasuretable "IE_Echo_Spider"
+new subtable "1,1"
+object category "I_WPN_IE_Echos_Song",1,0,0,0,0,0,0,0
+
+new treasuretable "IE_Dead_Dragon_Cultist"
+new subtable "1,1"
+object category "I_WPN_IE_Five_Head_Flail",1,0,0,0,0,0,0,0

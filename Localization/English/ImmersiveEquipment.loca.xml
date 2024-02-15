@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
     <!-- Echo's Song -->
-    <content contentuid="hff5150ab22324c36bcae1a8d730161d2546d" version="1">Overcome or be consumed, then another bearer will take their place. And another.</content>
     <content contentuid="h72562a7cg3f48g4416g9dc4g0d0f64573b59" version="1">Echo's Song</content>
+    <content contentuid="hff5150ab22324c36bcae1a8d730161d2546d" version="1">Overcome or be consumed, then another bearer will take their place. And another.</content>
     <content contentuid="hdc99e3dea1cf4b4e9c62d9680140477bg33g" version="1">This sword's magical powers only function if it's &lt;LSTag Type="Status" Tooltip="WEAPON_BOND"&gt;Bound&lt;/LSTag&gt; to an Eldritch Knight or is a Warlock's &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;.</content>
     <content contentuid="h988c102fg513fg4f92g8e6egf15a20e9fd23" version="2">Force Channeling</content>
     <content contentuid="h629659b4g03c6g4c9ega995ge4a8cb0daf37" version="2">Red energy shines across the weapon's surface. Deals an additional [1].</content>
@@ -12,28 +12,42 @@
     <content contentuid="h1651da91g4864g4e22gad0egd55c1cdac827" version="2">As a bonus action, throw a blast of energy siphoned from the vitality of your enemies, damaging each creature it hits.</content>
     <content contentuid="h8be95f1fgde3cg4065g883bgbbc8316c78e7" version="2">Can cast &lt;LSTag Type="Spell" Tooltip="IE_Target_ImmolateEcho"&gt;Immolate Echo&lt;/LSTag&gt; as a bonus action.</content>
 
+    <!-- Talassan Géaga -->
     <content contentuid="haf8cb37758d94201a40f0c8b160e8f392g3a" version="1">Talassan Géaga</content>
     <content contentuid="hf74243457c954cc6986502e366456aa95715" version="1">This ritual staff emanates with cold crackling energy, said to be a Religious Implement for Shamans of the Storm Lord.</content>
     <content contentuid="h6f0c0eb752f740ffa78d89e90b7212100dd5" version="2">Talosian Boon</content>
     <content contentuid="h541f5772090c4fe28179f4fc8af7d7710cg5" version="1">If the wearer is standing on a ice or lightning surface, they gain [1] AC.</content>
     <content contentuid="h07a2a943a79e4dc5847915540e4f3efd2c2b" version="1">Stormstar Topple</content>
-    <content contentuid="h0e236ab79f0648e5be8cabccb64b0d50ga6f" version="1">Swipe at a creature to knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+    <content contentuid="h0e236ab79f0648e5be8cabccb64b0d50ga6f" version="1">Swipe at a creature with the power of the storm to knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
     
-    <content contentuid="hd661529ed9a34e2bad88ef5896b7e9fdfda8" version="1">Description</content>
+    <!-- Flail of the Five Heads -->
     <content contentuid="h2924fa2e260746d4b047b2971942908a6963" version="1">Flail of the Five Heads</content>
+    <content contentuid="hd661529ed9a34e2bad88ef5896b7e9fdfda8" version="1">Description</content>
     <content contentuid="h94aa1db02a3f42739f56b433648d5e08b056" version="1">Chromatic Dominance</content>
     <content contentuid="hc1ffdf71f135422ea3a9346811ec308f7057" version="1">This weapon ignores &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Acid, Poison, Cold, Fire, and Lightning damage.</content>
     <content contentuid="h098ed7eaf17c40bdaac5b48964dbe5a2cg0d" version="1">Chromatic Tenacity</content>
     <content contentuid="h3dd8354d87cf4bcab0108b1c58e669f2bea7" version="1">When you miss an attack, you deal [1] Acid, Poison, Cold, Fire, and Lightning anyway.</content>
 
-
-    <content contentuid="h222a85ed60db485eb2d1408aaed21db6b743" version="1">Description</content>
+    <!-- Chromatic Hat -->
     <content contentuid="he02ae8251bf340edbfccf8f550027ccf27gg" version="1">Mask of the Dragon Queen</content>
+    <content contentuid="h222a85ed60db485eb2d1408aaed21db6b743" version="1">Description</content>
     <content contentuid="h1b604f243a88460b91ea63c669dfa1374867" version="1">Aura of the Dragon Queen</content>
     <content contentuid="h51285332673448a889401db21d4d089d1b92" version="1">Enemies within [1] of you take [2] Acid, Poison, Cold, Fire, and Lightning damage.</content>
     <content contentuid="hb5d63e9105184a9b9b134ae9f1632ad9911b" version="1">Enemies ending their turn within [1] of you take [2] Acid, Poison, Cold, Fire, and Lightning damage.</content>
     <content contentuid="h01e9459581294691ba659902ea2e39d3f3aa" version="1">Target takes [2] Acid, Poison, Cold, Fire, and Lightning damage at the end of it's turn.</content>
     
+    <!-- Characters -->
     <content contentuid="h01e66f1b03f8494d8c1c08a17d578b42f57g" version="1">Dragon Cult Champion</content>
     <content contentuid="hb964d47eb4494b95b05812b108f11f6e184c" version="1">Dragon Cult Sorceror</content>
+    
+    <content contentuid="h8e47c0bd9c3d4280ae05252d5c6a25699gba" version="1">Ettercap Hunter</content>
+    <content contentuid="hf07ff69440bd41079bf7e4a41a08d1a0f4f8" version="1">Echo Spider</content>
+    <content contentuid="hb022a53609ee4617890812535a371f9267fd" version="1">Forceful Reprisal</content>
+    <content contentuid="h17d4e7b380d44d4dabf343976b1fcef5c06g" version="1">Upon taking damage, reflect [1] to the attacker.</content>
+    <content contentuid="h8d69f99b5d46439aa17a5fd8c0fb9e6d0fg4" version="1">Lodged Sword</content>
+    <content contentuid="hd30e529fd7a945b4a211b9e85779c0269bc0" version="1">A mysterious sword is lodged in this creature imbuing it with nefarious magic. Target gains &lt;LSTag Type="Pasive" Tooltip="IE_Force_Reprisal"&gt;Force Reprisal&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="MAG_Critical_Force_Critical_Passive"&gt;Craterous Wounds&lt;/LSTag&gt;</content>
+    <content contentuid="hfaee9d4c456e49f8a2d7c9e32b767f1c2bc5" version="1">Forceful Bite</content>
+
+    <content contentuid="h8bf2727b4cc945baa7214840149498583123" version="1">Cloaker Lord</content>
+    <content contentuid="hdde2903cb7334ac59827a6803be3087d19f8" version="1">Lesser Cloaker</content>
 </contentList>

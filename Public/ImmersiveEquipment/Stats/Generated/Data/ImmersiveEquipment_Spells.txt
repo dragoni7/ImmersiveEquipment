@@ -58,3 +58,13 @@ data "RequirementConditions" "not HasStatus('IE_DRAGON_QUEEN_AURA')"
 data "PrepareEffect" "e50b62f4-dcb2-47c8-9fe3-aaa9eaad6aff"
 data "CastEffect" "ccdad0c8-d87b-4cfc-affc-c86f1aa4fa80"
 
+new entry "IE_Target_Force_Bite"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Bite"
+data "DisplayName" "hfaee9d4c456e49f8a2d7c9e32b767f1c2bc5"
+data "SpellSuccess" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Piercing);DealDamage(1d4, Force, Magical)"
+data "TooltipDamageList" "DealDamage(2d4+UnarmedMeleeAbilityModifier, Piercing);DealDamage(1d4, Force, Magical)"
+data "CastSound" "CrSpell_Cast_Bite"
+data "SpellAnimationIntentType" "Aggressive"
+

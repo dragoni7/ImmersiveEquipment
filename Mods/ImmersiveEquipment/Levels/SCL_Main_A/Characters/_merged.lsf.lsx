@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!--Below Oliver's House-->
+
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdde2903cb7334ac59827a6803be3087d19f8" version="1" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="MapKey" type="FixedString" value="837716df-ec07-4918-9e30-a2014ab22ec4" />
+					<attribute id="Name" type="LSString" value="IE_Cloaker_A" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Small_Stats" />
+					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="24.12 31.35 22.63" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.53" />
+							<attribute id="Scale" type="float" value="0.6" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdde2903cb7334ac59827a6803be3087d19f8" version="1" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="MapKey" type="FixedString" value="dfc235be-4619-4552-bd10-bf4bf06fcb16" />
+					<attribute id="Name" type="LSString" value="IE_Cloaker_B" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Small_Stats" />
+					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.72 36.13 30.78" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.53" />
+							<attribute id="Scale" type="float" value="0.6" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8bf2727b4cc945baa7214840149498583123" version="1" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="MapKey" type="FixedString" value="b81dd088-141f-4dc6-89ec-1376aaf55303" />
+					<attribute id="Name" type="LSString" value="IE_Cloaker_Lord" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Lord_Stats" />
+					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="3" />
+									<attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="3" />
+									<attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms2" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="20.73 37.85 17.24" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.53" />
+							<attribute id="Scale" type="float" value="1.2" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanFight" type="bool" value="False" />
+					<attribute id="Archetype" type="FixedString" value="mage" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eda1d19a-d8fa-45b9-8840-1f3ebbf199e8" />
+					<attribute id="DefaultState" type="uint8" value="11" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb964d47eb4494b95b05812b108f11f6e184c" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_END_Thrall_Sorcerer" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="0778e78e-21c0-1e06-189a-6bd88087a850-_(Icon_Dragonborn_Male)" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="MapKey" type="FixedString" value="ec6464ba-67b3-4d3b-b4e6-a0a0164995bd" />
+					<attribute id="Name" type="LSString" value="IE_Dragon_Cult_Sorceror_Dead_A" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2efbaf9-a4aa-48d9-9660-a025235e9db3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_UNDEAD" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="20.73 37.85 17.24" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.3736241" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="IE_Dead_Dragon_Cultist" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanFight" type="bool" value="False" />
+					<attribute id="Archetype" type="FixedString" value="mage" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eda1d19a-d8fa-45b9-8840-1f3ebbf199e8" />
+					<attribute id="DefaultState" type="uint8" value="11" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb964d47eb4494b95b05812b108f11f6e184c" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_END_Thrall_Sorcerer" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="0778e78e-21c0-1e06-189a-6bd88087a850-_(Icon_Dragonborn_Male)" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="MapKey" type="FixedString" value="384bb01b-1350-4e84-a063-fefb52a9a986" />
+					<attribute id="Name" type="LSString" value="IE_Dragon_Cult_Sorceror_Dead_B" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2efbaf9-a4aa-48d9-9660-a025235e9db3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.72 36.13 30.78" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.3736241" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_UNDEAD" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanFight" type="bool" value="False" />
+					<attribute id="Archetype" type="FixedString" value="mage" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="eda1d19a-d8fa-45b9-8840-1f3ebbf199e8" />
+					<attribute id="DefaultState" type="uint8" value="11" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb964d47eb4494b95b05812b108f11f6e184c" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_END_Thrall_Sorcerer" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="0778e78e-21c0-1e06-189a-6bd88087a850-_(Icon_Dragonborn_Male)" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="MapKey" type="FixedString" value="7edc3557-1e96-4b25-81e5-929a5f360d38" />
+					<attribute id="Name" type="LSString" value="IE_Dragon_Cult_Sorceror_Dead_C" />
+					<attribute id="Stats" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="b2efbaf9-a4aa-48d9-9660-a025235e9db3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="27.72 33.13 31.78" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.8275802 0 -0.3736241" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_UNDEAD" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+			</children>
+		</node>
+	</region>
+</save>

@@ -4,6 +4,8 @@
 	<region id="CharacterVisualBank">
 		<node id="CharacterVisualBank">
 			<children>
+
+				<!--Dragon Cult Champion-->
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="61889c0b-81c3-730a-7bbc-805119a34957" />
 					<attribute id="BodySetVisual" type="FixedString" value="9e557ffd-9dd2-863b-876a-1648325850e5" />
@@ -520,6 +522,7 @@
 					</children>
 				</node>
 
+				<!--Dragon Cult Sorceror-->
 				<node id="Resource">
 					<attribute id="BaseVisual" type="FixedString" value="61889c0b-81c3-730a-7bbc-805119a34957" />
 					<attribute id="BodySetVisual" type="FixedString" value="9e557ffd-9dd2-863b-876a-1648325850e5" />
@@ -1032,6 +1035,113 @@
 							<attribute id="Bone" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="DragonbornJaw" />
 							<attribute id="VisualResource" type="FixedString" value="9750f974-d686-f71b-d320-ab7984b9ccd8" />
+						</node>
+					</children>
+				</node>
+
+				<!--Echo Spider-->
+				<node id="Resource">
+					<attribute id="BaseVisual" type="FixedString" value="1fbb9c23-92d7-ecbb-cacc-a587c54ecaa0" />
+					<attribute id="BodySetVisual" type="FixedString" value="61022cb1-8bf6-4df1-6925-23b51bff98de" />
+					<attribute id="ID" type="FixedString" value="3913cc60-2d6a-450e-8452-931eaf0ed586" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="IE_Echo_Spider_d8d142fa-9f58-4633-b4e8-a8a6f43d2f5f" />
+					<attribute id="ShowEquipmentVisuals" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="MaterialOverrides">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="False" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Primary" />
+									<attribute id="Value" type="fvec3" value="1 0.1 1" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Secondary" />
+									<attribute id="Value" type="fvec3" value="0.17 0.15 0.0" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Tertiary" />
+									<attribute id="Value" type="fvec3" value="0.53 0.17 0.8" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_1" />
+									<attribute id="Value" type="fvec3" value="0.72 0.15 0.90" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_2" />
+									<attribute id="Value" type="fvec3" value="1 0.8 1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!--Ettercap Hunter-->
+				<node id="Resource">
+					<attribute id="BaseVisual" type="FixedString" value="ef79e13a-c6fa-0e35-2ae1-66eb5bc126a2" />
+					<attribute id="BodySetVisual" type="FixedString" value="689f4d13-07fe-4ec0-9534-de43595afc14" />
+					<attribute id="ID" type="FixedString" value="e8f55301-b37e-4d2c-8b60-c64ce2efc234" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="IE_Etter_Hunter" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855902" />
+					<children>
+						<node id="MaterialOverrides">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="False" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Cloth_Primary" />
+									<attribute id="Value" type="fvec3" value="0.36 0.01 0.12" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_1" />
+									<attribute id="Value" type="fvec3" value="0.60 0.66 0.72" />
+								</node>
+								<node id="Vector3Parameters">
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Parameter" type="FixedString" value="Custom_2" />
+									<attribute id="Value" type="fvec3" value="1 0.8 1" />
+								</node>
+							</children>
+						</node>
+						<node id="Slots">
+							<attribute id="Slot" type="FixedString" value="Unassigned" />
+							<attribute id="VisualResource" type="FixedString" value="94f5e422-9a2b-c5ec-18d6-c02c24b2b893" />
 						</node>
 					</children>
 				</node>
