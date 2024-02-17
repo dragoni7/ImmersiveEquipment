@@ -5,9 +5,10 @@
 		<node id="Templates">
 			<children>
 
-				<!--Below Oliver's House-->
+				<!--Shadowed Battlefield-->
 
 				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="True" />
 					<attribute id="Archetype" type="FixedString" value="melee" />
 					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdde2903cb7334ac59827a6803be3087d19f8" version="1" />
@@ -17,6 +18,7 @@
 					<attribute id="LevelOverride" type="int32" value="3" />
 					<attribute id="MapKey" type="FixedString" value="837716df-ec07-4918-9e30-a2014ab22ec4" />
 					<attribute id="Name" type="LSString" value="IE_Cloaker_A" />
+					<attribute id="StartCombatRange" type="float" value="12" />
 					<attribute id="SpellSet" type="FixedString" value="" />
 					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Small_Stats" />
 					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
@@ -55,7 +57,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Bite_Lesser_Cloaker" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -82,7 +84,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Projectile_Jump_Cloaker_High" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -101,40 +103,6 @@
 											</children>
 										</node>
 									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
 								</node>
 							</children>
 						</node>
@@ -147,6 +115,7 @@
 				</node>
 
 				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="True" />
 					<attribute id="Archetype" type="FixedString" value="melee" />
 					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hdde2903cb7334ac59827a6803be3087d19f8" version="1" />
@@ -156,6 +125,7 @@
 					<attribute id="LevelOverride" type="int32" value="3" />
 					<attribute id="MapKey" type="FixedString" value="dfc235be-4619-4552-bd10-bf4bf06fcb16" />
 					<attribute id="Name" type="LSString" value="IE_Cloaker_B" />
+					<attribute id="StartCombatRange" type="float" value="12" />
 					<attribute id="SpellSet" type="FixedString" value="" />
 					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Small_Stats" />
 					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
@@ -194,7 +164,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Bite_Lesser_Cloaker" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -221,7 +191,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Projectile_Jump_Cloaker_High" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -240,40 +210,6 @@
 											</children>
 										</node>
 									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
 								</node>
 							</children>
 						</node>
@@ -286,7 +222,115 @@
 				</node>
 
 				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="True" />
 					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdde2903cb7334ac59827a6803be3087d19f8" version="1" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="MapKey" type="FixedString" value="427ff77e-5a92-4a0d-bcf6-53c76618dde3" />
+					<attribute id="Name" type="LSString" value="IE_Cloaker_C" />
+					<attribute id="StartCombatRange" type="float" value="12" />
+					<attribute id="SpellSet" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="IE_Cloaker_Small_Stats" />
+					<attribute id="TemplateName" type="FixedString" value="499f0cbf-2549-4502-894f-be3cd3733ab5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="91450084-e118-ff17-bf5d-ec7212c70b99" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20be695a-e1c2-b459-4c27-1c5db7721226" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0547ba0b-7482-92c8-c397-cc5f793e693d" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Bite_Lesser_Cloaker" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="IE_Projectile_Jump_Cloaker_High" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="16.75 37.54 12.75" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.4 0 -0.53" />
+							<attribute id="Scale" type="float" value="0.6" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="True" />
+					<attribute id="Archetype" type="FixedString" value="melee_smart" />
 					<attribute id="CombatGroupID" type="FixedString" value="4d258a87-09fa-48e9-be50-60bdadedd154" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h8bf2727b4cc945baa7214840149498583123" version="1" />
 					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
@@ -333,7 +377,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bite_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Bite_CloakerLord" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -360,7 +404,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Multiattack_CloakerLord" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -387,12 +431,93 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Cloaker" />
+									<attribute id="Skill" type="FixedString" value="IE_Projectile_Jump_Cloaker_High" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
 										<node id="SourceConditions">
 											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="IE_Shout_Moan_Cloaker_Fear" />
+									<attribute id="SpellCastingAbility" type="uint8" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="50" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="IE_Shout_Moan_Cloaker_Nausea" />
+									<attribute id="SpellCastingAbility" type="uint8" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="50" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="IE_Target_Moan_Cloaker_HoldPerson" />
+									<attribute id="SpellCastingAbility" type="uint8" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="90" />
 											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
 											<children>
 												<node id="Tags" />
@@ -419,7 +544,7 @@
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
 										<node id="SourceConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="50" />
 											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
 											<children>
 												<node id="Tags" />
@@ -446,7 +571,34 @@
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
 										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="50" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
 											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="3" />
+									<attribute id="Skill" type="FixedString" value="Target_Cloaker_Phantasms3" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="50" />
 											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
 											<children>
 												<node id="Tags" />
@@ -466,14 +618,14 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_SUMMON" />
+									<attribute id="Object" type="FixedString" value="INVISIBLE" />
 								</node>
 							</children>
 						</node>
 						<node id="Transform">
 							<attribute id="Position" type="fvec3" value="20.73 37.85 17.24" />
 							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.53" />
-							<attribute id="Scale" type="float" value="1.2" />
+							<attribute id="Scale" type="float" value="1.3" />
 						</node>
 					</children>
 				</node>
@@ -598,6 +750,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Monster_Zombie" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 
@@ -645,7 +804,7 @@
 						</node>
 						<node id="LocomotionParams" />
 						<node id="Transform">
-							<attribute id="Position" type="fvec3" value="27.72 33.13 31.78" />
+							<attribute id="Position" type="fvec3" value="38.83 34.47 14.66" />
 							<attribute id="RotationQuat" type="fvec4" value="0 0.8275802 0 -0.3736241" />
 							<attribute id="Scale" type="float" value="1" />
 						</node>
@@ -653,6 +812,13 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="SCL_SHADOW_CURSE_UNDEAD" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Monster_Zombie" />
 								</node>
 							</children>
 						</node>

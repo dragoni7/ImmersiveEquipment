@@ -50,4 +50,25 @@
 
     <content contentuid="h8bf2727b4cc945baa7214840149498583123" version="1">Cloaker Lord</content>
     <content contentuid="hdde2903cb7334ac59827a6803be3087d19f8" version="1">Lesser Cloaker</content>
+    <content contentuid="h4500f96efa394350a5af3593a4ee3cb0a72f" version="1">Fearful Moan</content>
+    <content contentuid="hc601a5cf62274cc59f5541f506d79d60gd95" version="1">Produce a terrifying moan and &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fear&lt;/LSTag&gt; nearby creatures.</content>
+    <content contentuid="hd492cb638957470ebfa8577ce2f5d61ca9b2" version="1">Nauseating Moan</content>
+    <content contentuid="hc577185277a0476b95c7a36dcb78db610f49" version="1">Produce a nauseating moan and &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Nauseate&lt;/LSTag&gt; nearby creatures.</content>
+    <content contentuid="h765ab2704799411394494e63dde657315be5" version="1">Stuporing Moan</content>
+    <content contentuid="hc4dd17aad633482c8a9bed2513f6fa01d887" version="1">Target a stuporing moan towards a creature, &lt;LSTag Type="Status" Tooltip="HOLD_PERSON"&gt;Holding&lt;/LSTag&gt; it.</content>
+    <content contentuid="h142e9f330506478fb13dd3f6b1ade249g9gf" version="1">Can &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker"&gt;Multiattack&lt;/LSTag&gt; if the target is &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Nauseated&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Feared&lt;/LSTag&gt;</content>
+    
+    <content contentuid="hfef5f479d9c3474ca40196ea5786ed67gc5e" version="1">Drow Stormchaser</content>
+    <content contentuid="h44d23f563a6d49f9912da0136aea2c75g4d9" version="1">Tempest Cleric</content>
+    <content contentuid="h976eb555355d4226beccb8c96520fde3bd04" version="1">Talo's Aid</content>
+    <content contentuid="h778f6988940a4a56ba8235389c435a806405" version="1">Call for aid from the diety of destruction.</content>
+    <content contentuid="hdcf4226ceda9484aaf00e9a0d959e730ede6" version="1">Avatar of Destruction</content>
+    <content contentuid="h3e3bd96e9692453a922ccaf7ae1ae8a65c7d" version="1">Talos has answered your call! Target is infused with the destructive power of storms.</content>
+    <content contentuid="hd6eb0ca012d04cc4bcfb61acb280111c59a2" version="1">Destructive Revenge</content>
+    <content contentuid="hca12764b43fc402cb76ec73ed1bd7895a3b7" version="1">Physical damage is reflected back as thunder damage.</content>
+    <content contentuid="h5f6eb9bd117c43ea9d097a49a12afe778g9d" version="1">Storm Sorceror</content>
+    
+    <content contentuid="h61a5505b7e254848a7c8f1ff6199b387f68g" version="1">True Soul Lothane</content>
+    <content contentuid="hbeaecf3a55994685a05a73c2960360f77ab3" version="1">Tracker Yumee</content>
+    <content contentuid="h346979d6b03c418984c11ab0c6db0c96a00b" version="1">Warlock Gala</content>
 </contentList>
