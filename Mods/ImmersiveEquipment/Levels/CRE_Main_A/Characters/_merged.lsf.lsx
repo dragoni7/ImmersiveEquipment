@@ -280,6 +280,13 @@
 							<attribute id="RotationQuat" type="fvec4" value="0 0.21461 0 0.9766998" />
 							<attribute id="Scale" type="float" value="1" />
 						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="IE_Lothane" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 

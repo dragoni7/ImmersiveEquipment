@@ -10,6 +10,7 @@
 				<node id="GameObjects">
 					<attribute id="Archetype" type="FixedString" value="mage_smart" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="eda1d19a-d8fa-45b9-8840-1f3ebbf199e8" />
+					<attribute id="CombatGroupID" type="FixedString" value="ada8b23a-4c72-4e70-9fee-af46de4a193b" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb964d47eb4494b95b05812b108f11f6e184c" version="1" />
 					<attribute id="Equipment" type="FixedString" value="EQP_END_Thrall_Sorcerer" />
 					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
@@ -206,6 +207,7 @@
 				<node id="GameObjects">
 					<attribute id="Archetype" type="FixedString" value="mage_smart" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="eda1d19a-d8fa-45b9-8840-1f3ebbf199e8" />
+					<attribute id="CombatGroupID" type="FixedString" value="ada8b23a-4c72-4e70-9fee-af46de4a193b" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb964d47eb4494b95b05812b108f11f6e184c" version="1" />
 					<attribute id="Equipment" type="FixedString" value="EQP_END_Thrall_Sorcerer" />
 					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
@@ -402,16 +404,17 @@
 				<node id="GameObjects">
 					<attribute id="Archetype" type="FixedString" value="melee" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="e0173cce-391b-427d-87eb-b68845b77f36" />
+					<attribute id="CombatGroupID" type="FixedString" value="ada8b23a-4c72-4e70-9fee-af46de4a193b" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h01e66f1b03f8494d8c1c08a17d578b42f57g" version="1" />
-					<attribute id="Equipment" type="FixedString" value="EQP_Flail" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Spear" />
 					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
 					<attribute id="Flag" type="int32" value="1" />
 					<attribute id="Icon" type="FixedString" value="0778e78e-21c0-1e06-189a-6bd88087a850-_(Icon_Dragonborn_Male)" />
 					<attribute id="IsEquipmentLootable" type="bool" value="False" />
 					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
 					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="MapKey" type="FixedString" value="0ad2a388-49f1-4fa6-b57a-6b829d94fb40" />
-					<attribute id="Name" type="LSString" value="IE_Dragon_Cult_Champion" />
+					<attribute id="MapKey" type="FixedString" value="870f40e5-3697-4672-97a4-f41b2ec4fa39" />
+					<attribute id="Name" type="LSString" value="IE_Dragon_Champion" />
 					<attribute id="StartCombatRange" type="float" value="10" />
 					<attribute id="Stats" type="FixedString" value="IE_Dragon_Champion_Stats" />
 					<attribute id="TemplateName" type="FixedString" value="b2efbaf9-a4aa-48d9-9660-a025235e9db3" />
@@ -441,6 +444,37 @@
 							</children>
 						</node>
 						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Zone_BreathWeapon_Fire_Cone" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
@@ -450,7 +484,7 @@
 						</node>
 						<node id="Transform">
 							<attribute id="Position" type="fvec3" value="-143.53 33.77 475.0" />
-							<attribute id="RotationQuat" type="fvec4" value="0 0.9275802 0 -0.53" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9075802 0 -0.3736241" />
 							<attribute id="Scale" type="float" value="1" />
 						</node>
 						<node id="Treasures">
@@ -1293,33 +1327,6 @@
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
 									<attribute id="Skill" type="FixedString" value="Zone_GustOfWind" />
-									<attribute id="SpellCastingAbility" type="uint8" value="0" />
-									<attribute id="StartRound" type="int32" value="0" />
-									<children>
-										<node id="SourceConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-										<node id="TargetConditions">
-											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-											<children>
-												<node id="Tags" />
-											</children>
-										</node>
-									</children>
-								</node>
-								<node id="Skill">
-									<attribute id="AIFlags" type="uint16" value="0" />
-									<attribute id="FallbackStartRound" type="int32" value="-1" />
-									<attribute id="LearningStrategy" type="uint8" value="0" />
-									<attribute id="MinimumImpact" type="int32" value="0" />
-									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_FogCloud" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>

@@ -347,6 +347,95 @@
 					</children>
 				</node>
 
+				<node id="GameObjects">
+                    <!-- Source Drinker -->
+					<attribute id="Description" type="TranslatedString" handle="hf54b13af452d4d509c593d3562a1267b0c0d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hee846056a2f2402a89a2e9bddc276ee35f1a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortsword_A_2" />
+					<attribute id="MapKey" type="FixedString" value="a63de08c-d80c-42fc-8653-979bb302974d" />
+					<attribute id="Name" type="LSString" value="WPN_IE_Source_Drinker" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0839fb15-24ab-4c3a-b168-413a47ed710a" />
+					<attribute id="Stats" type="FixedString" value="WPN_IE_Source_Drinker" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="8aeed6ef-b673-2a11-69ee-ccbae48cdf94" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="IE_OVERLAY_SOURCE" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+                    <!-- Ring of Laws -->
+					<attribute id="Description" type="TranslatedString" handle="h48b3a7a455514837abfa816e2d9a51168213" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcb919a51e809444f90cbb147656ec892d90b" version="1" />
+					<attribute id="MapKey" type="FixedString" value="24fcb568-feb6-480e-b259-440d8b84b4bd" />
+					<attribute id="Name" type="LSString" value="ARM_IE_Ring_Of_Laws" />
+					<attribute id="ParentTemplateId" type="FixedString" value="68262d1e-aa97-41c3-8daf-9910359705f9" />
+					<attribute id="Stats" type="FixedString" value="ARM_IE_Ring_Of_Laws" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+                    <!-- Ring of Destruction -->
+					<attribute id="Description" type="TranslatedString" handle="h347f4ad1401847ceba14c29133c17fd59cb1" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h913e5f39695e48ec80da96798d76a010f34c" version="1" />
+					<attribute id="MapKey" type="FixedString" value="b2541b90-c8a0-4d9f-a88b-5a8a779045c7" />
+					<attribute id="Name" type="LSString" value="ARM_IE_Ring_Of_Destruction" />
+					<attribute id="ParentTemplateId" type="FixedString" value="52f6619c-edd3-4493-a420-c124f52c2a03" />
+					<attribute id="Stats" type="FixedString" value="ARM_IE_Ring_Of_Destruction" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+                    <!-- Ring of Old Prayers -->
+					<attribute id="Description" type="TranslatedString" handle="h72cff3114d2540ce9603b567e253f90d147c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4f3fde46e8234e1fb09958921494927b7ebd" version="1" />
+					<attribute id="MapKey" type="FixedString" value="19e7aa1b-4118-4714-8eee-638263389982" />
+					<attribute id="Name" type="LSString" value="ARM_IE_Ring_Of_Old_Prayers" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4e2487ad-5675-4459-a1f9-dd3d785a8b89" />
+					<attribute id="Stats" type="FixedString" value="ARM_IE_Ring_Of_Old_Prayers" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
             </children>
         </node>
     </region>

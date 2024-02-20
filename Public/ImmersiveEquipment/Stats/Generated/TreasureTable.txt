@@ -13,3 +13,21 @@ object category "I_WPN_IE_Five_Head_Flail",1,0,0,0,0,0,0,0
 new treasuretable "IE_Tempest_Cleric"
 new subtable "1,1"
 object category "I_WPN_IE_Géaga_de_Talos",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_IE_Ring_Of_Destruction",1,0,0,0,0,0,0,0
+
+new treasuretable "IE_Lothane"
+new subtable "1,1"
+object category "I_WPN_IE_Source_Drinker",1,0,0,0,0,0,0,0
+
+// merged tables
+
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_IE_Ring_Of_Laws",1,0,0,0,0,0,0,0
+
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_IE_Ring_Of_Old_Prayers",1,0,0,0,0,0,0,0
