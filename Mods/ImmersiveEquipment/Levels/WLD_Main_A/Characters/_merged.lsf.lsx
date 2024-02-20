@@ -1064,7 +1064,7 @@
 					<attribute id="Archetype" type="FixedString" value="mage" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="96591c86-0ee3-4b3f-a9fa-541f87814cf6" />
 					<attribute id="CombatGroupID" type="FixedString" value="5bc6e5e1-213a-4de1-a7fe-02e7c4b90f1b" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hfef5f479d9c3474ca40196ea5786ed67gc5e" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h29a535ab291b4f0c98ea28a96e9bc65dg018" version="2" />
 					<attribute id="Equipment" type="FixedString" value="EQP_Staff_C_Robe" />
 					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-a117-dba88e20e70d" />
 					<attribute id="Flag" type="int32" value="1" />
