@@ -87,15 +87,16 @@
     <content contentuid="hc4dd17aad633482c8a9bed2513f6fa01d887" version="1">Target a stuporing moan towards a creature, &lt;LSTag Type="Status" Tooltip="HOLD_PERSON"&gt;Holding&lt;/LSTag&gt; it.</content>
     <content contentuid="h142e9f330506478fb13dd3f6b1ade249g9gf" version="1">Can &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker"&gt;Multiattack&lt;/LSTag&gt; if the target is &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="HAG_WELL_BAD"&gt;Nauseated&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Feared&lt;/LSTag&gt;</content>
     
-    <content contentuid="hfef5f479d9c3474ca40196ea5786ed67gc5e" version="1">Stormchaser</content>
-    <content contentuid="h44d23f563a6d49f9912da0136aea2c75g4d9" version="1">Tempest Cleric</content>
+    <content contentuid="hfef5f479d9c3474ca40196ea5786ed67gc5e" version="1">Storm Shaman Andorhn</content>
+    <content contentuid="h44d23f563a6d49f9912da0136aea2c75g4d9" version="1">Cleric of Destruction Dahlia</content>
+    <content contentuid="h5f6eb9bd117c43ea9d097a49a12afe778g9d" version="1">Invoker of Destruction Marsene</content>
+    <content contentuid="h29a535ab291b4f0c98ea28a96e9bc65dg018" version="1">Storm Shaman Yuulik</content>
     <content contentuid="h976eb555355d4226beccb8c96520fde3bd04" version="1">Talo's Aid</content>
     <content contentuid="h778f6988940a4a56ba8235389c435a806405" version="1">Call for aid from the diety of destruction.</content>
     <content contentuid="hdcf4226ceda9484aaf00e9a0d959e730ede6" version="1">Avatar of Destruction</content>
     <content contentuid="h3e3bd96e9692453a922ccaf7ae1ae8a65c7d" version="1">Talos has answered your call! Target is infused with the destructive power of storms.</content>
     <content contentuid="hd6eb0ca012d04cc4bcfb61acb280111c59a2" version="1">Destructive Revenge</content>
     <content contentuid="hca12764b43fc402cb76ec73ed1bd7895a3b7" version="1">Physical damage is reflected back as thunder damage.</content>
-    <content contentuid="h5f6eb9bd117c43ea9d097a49a12afe778g9d" version="1">Storm Sorcerer</content>
     
     <content contentuid="h61a5505b7e254848a7c8f1ff6199b387f68g" version="1">True Soul Lothane</content>
     <content contentuid="hbeaecf3a55994685a05a73c2960360f77ab3" version="1">Tracker Yumee</content>
